@@ -5,7 +5,7 @@
 4) What is the value in the last_name column of the customer whose value is 'Mary' in the first_name column of the customer table?
 5) Sort the data in the movie table whose length is NOT greater than 50, but whose rental_rate is NOT 2.99 or 4.99.
 
-- 1
+1)
 - SELECT title, description FROM film;
 - 2
 - SELECT * FROM film 
