@@ -3,7 +3,7 @@ SELECT DISTINCT replacement_cost
 FROM film;
 --2
 SELECT COUNT(replacement_cost)
-FROM film
+FROM film;
 --3
 SELECT COUNT(*) FROM film
 WHERE title LIKE 'T%' AND rating = 'G';
