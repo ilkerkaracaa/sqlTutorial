@@ -1,3 +1,5 @@
+The following questions are answered.
+--
 1) Sort the different values in the replacement_cost column in the movie table.
 - SELECT DISTINCT replacement_cost 
 - FROM film;
