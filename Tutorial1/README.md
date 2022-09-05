@@ -1,4 +1,4 @@
-## The following questions are answered.
+The following questions are answered.
 ----
 1) Sort the data in the title and description columns in the movie table.
 - SELECT title, description FROM film;
