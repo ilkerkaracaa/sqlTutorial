@@ -56,24 +56,24 @@
 - insert into employee (id, name, birthday, email) values (49, 'Rafa', '22/12/1943', 'rkettlewell1c@jalbum.net');
 - insert into employee (id, name, birthday, email) values (50, 'Nikki', '05/06/2009', 'nticehurst1d@multiply.com');
 3) The future of the columns will update the relative columns via 5 UPDATE.
---1
+
 - update employee
 - set name = 'PATİKA'
 - where id=8;
---2
+--
 - update employee
 - set birthday = '1919-05-19'
 - where id=19;
 - select * from employee;
---3
+--
 - update employee
 - set name = 'Osman'
 - where name='PATİKA';
---4
+--
 - update employee
 - set email = 'patika@patika.com'
 - where id<25;
---5
+--
 - update employee
 - set name='PATİKA'
 - where email like 'k%';
