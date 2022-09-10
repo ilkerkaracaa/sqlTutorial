@@ -3,8 +3,7 @@
 - id int,	
 - name VARCHAR(50),
 - birthday DATE,
-- email VARCHAR(100)    
-);
+- email VARCHAR(100));
 2) Let's add 50 pieces of data to the created worker table using the 'Mockaroo' service.
 - insert into employee (id, name, birthday, email) values (1, 'Waldemar', '07/10/1968', 'wmccheyne0@buzzfeed.com');
 - insert into employee (id, name, birthday, email) values (2, 'Kristel', '23/02/1972', 'kgrinvalds1@quantcast.com');
