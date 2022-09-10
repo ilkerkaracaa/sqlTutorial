@@ -55,6 +55,8 @@
 - insert into employee (id, name, birthday, email) values (48, 'Josefina', '13/06/1916', 'jscrivener1b@istockphoto.com');
 - insert into employee (id, name, birthday, email) values (49, 'Rafa', '22/12/1943', 'rkettlewell1c@jalbum.net');
 - insert into employee (id, name, birthday, email) values (50, 'Nikki', '05/06/2009', 'nticehurst1d@multiply.com');
+----
+----
 3) The future of the columns will update the relative columns via 5 UPDATE.
 ----
 ----
@@ -97,4 +99,5 @@
 ----
 - delete from employee 
 - where id between 10 and 20;
+----
   
