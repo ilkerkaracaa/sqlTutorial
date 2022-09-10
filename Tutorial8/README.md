@@ -79,3 +79,19 @@
 - where email like 'k%';
 ----
 4) With 5 DELETE operations, the columns will delete information about it.
+----
+- delete from employee 
+- where name='PATİKA';
+----
+- delete from employee 
+- where email like '%u';
+----
+- delete from employee 
+- where name like 'K%';
+----
+- delete from employee 
+- where id in(1,2,8,18,40);
+----
+- delete from employee 
+- where id between 10 and 20;
+  
