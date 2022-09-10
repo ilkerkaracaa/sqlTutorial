@@ -56,6 +56,7 @@
 - insert into employee (id, name, birthday, email) values (49, 'Rafa', '22/12/1943', 'rkettlewell1c@jalbum.net');
 - insert into employee (id, name, birthday, email) values (50, 'Nikki', '05/06/2009', 'nticehurst1d@multiply.com');
 3) The future of the columns will update the relative columns via 5 UPDATE.
+----
 - update employee
 - set name = 'PATİKA'
 - where id=8;
@@ -76,4 +77,5 @@
 - update employee
 - set name='PATİKA'
 - where email like 'k%';
+----
 4) With 5 DELETE operations, the columns will delete information about it.
