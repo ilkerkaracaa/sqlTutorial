@@ -1,3 +1,5 @@
+The following questions are answered.
+--
 1) Let's create a table running in your test database with column information id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100).
 - CREATE TABLE employee(
 - id int,	
