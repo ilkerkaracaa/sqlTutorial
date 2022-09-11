@@ -24,13 +24,13 @@ The following questions are answered.
 - UNION ALL
 - (SELECT first_name
 - FROM customer);
-
+----
 - (SELECT first_name 
 - FROM actor)
 - INTERSECT ALL
 - (SELECT first_name
 - FROM customer);
-
+----
 - (SELECT first_name 
 - FROM actor)
 - EXCEPT ALL
