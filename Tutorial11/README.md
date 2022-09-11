@@ -6,7 +6,7 @@ The following questions are answered.
 - UNION
 - (SELECT first_name
 - FROM customer);
-2)Let's sort the intersecting data for the first_name columns in the actor and customer tables.
+2) Let's sort the intersecting data for the first_name columns in the actor and customer tables.
 - (SELECT first_name 
 - FROM actor)
 - INTERSECT
@@ -18,7 +18,7 @@ The following questions are answered.
 - EXCEPT
 - (SELECT first_name
 - FROM customer);
-4)Let's also do the first 3 queries for repeating data.
+4) Let's also do the first 3 queries for repeating data.
 - (SELECT first_name 
 - FROM actor)
 - UNION ALL
