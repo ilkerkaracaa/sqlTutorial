@@ -1,3 +1,5 @@
+The following questions are answered.
+--
 1) Write the INNER JOIN query where we can see the city and country names in the city table and the country table together.
 - SELECT city, country
 - FROM city
